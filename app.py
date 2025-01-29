@@ -16,6 +16,8 @@ app.title = "Dashboard Energia"
 server = app.server
 app.config.suppress_callback_exceptions = True
 
+# Se agrega esta linea para probar
+
 # Load data from csv
 def load_data():
     """
